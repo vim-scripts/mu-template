@@ -1,0 +1,18 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=222
+
+This is a micro-template file.
+Templates should be in $VIMTEMPLATES directory.
+The default is $VIM/vimfiles/template.
+Template files should be named template.&ft (&ft is the filetype)
+If filetype is not known, template.unknown will be read.
+You shouldn't modify the script (unless you have <C-J> mapped..). All customizing is inside the templates.
+You can insert 'fields' to the template. With the chars '<<' and '>>'.
+Editing will be started at the first field in selectmode.
+You can jump to the next field by pressing <C-J>
+(sorry <C-J> is remapped in normal, insert (and visual) mode)
+Expression evaluation:
+Use the ¡ (press <m-!>) symbol to surround your expression.
+Eg.: Creation date: ¡strftime('%c')¡ 
+The template set is very limited, but you will get the idea, I hope.
+(At least I hope you can learn some programming tricks)
+FEEDBACK PLEASE!
